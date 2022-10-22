@@ -23,6 +23,8 @@ nav
 		font-size: 15px
 		font-weight: 300
 		text-decoration: none
+		&:hover
+			color: #1eacc7
 	&_item
 		border-right: 2px dotted black
 		padding-right: 28px
@@ -129,7 +131,7 @@ nav
 	&_block
 		display: flex
 		justify-content: center
-		align-items: center
+		align-items: flex-start
 		margin-top: 35px
 	&_round
 		display: flex
@@ -249,7 +251,7 @@ nav
 				display: block
 				width: 14px 
 				height: 2px
-				background-color: $main-color
+				background-color: #1eacc7
 				transition: .2s all
 			&:after 
 				content: ''
@@ -259,11 +261,11 @@ nav
 				display: block
 				height: 14px
 				width: 2px
-				background-color: $main-color
+				background-color: #1eacc7
 				transition: .2s all
 			&:hover
 				&:before, &::after
-					background-color: #155764
+					background-color: #fff
 
 .choice
 	position: relative
@@ -389,6 +391,7 @@ footer
 			height: 32px
 			background-color: #070716
 			border-radius: 100%
+			text-decoration: none
 			i
 				color: #fff
 	&_links
@@ -424,5 +427,8 @@ footer
 			text-align: center
 			text-transform: uppercase
 			text-decoration: none
+		&_mobile
+			a
+				text-decoration: none
 .xs-visible
 	display: none
