@@ -15,7 +15,7 @@ nav
 .menu
 	display: flex
 	justify-content: space-between
-	padding: 13px 0 70px 0
+	padding: 13px 0 0px 0
 	margin: 0 auto
 	list-style-type: none
 	&_link
@@ -407,6 +407,8 @@ footer
 				font-weight: 300
 				text-transform: uppercase
 				text-decoration: none
+				&:hover
+					text-decoration: underline
 		&_sub
 			display: flex
 			justify-content: space-between
@@ -417,6 +419,8 @@ footer
 				font-weight: 300
 				text-transform: uppercase
 				text-decoration: none
+				&:hover
+					text-decoration: underline
 		&_lang
 			display: block
 			margin: 0 auto
@@ -427,8 +431,10 @@ footer
 			text-align: center
 			text-transform: uppercase
 			text-decoration: none
-		&_mobile
-			a
-				text-decoration: none
+			&:hover
+				text-decoration: underline
+	&_mobile
+		a
+			text-decoration: none
 .xs-visible
 	display: none
