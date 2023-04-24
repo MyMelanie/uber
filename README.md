@@ -1,7 +1,7 @@
 https://mymelanie.github.io/uber/src/
 
 # Input data
-### This is a study project from the course ["WEB Developer"] (https://www.udemy.com/course/webdeveloper/)
+### This is a study project from the course ["WEB Developer"](https://www.udemy.com/course/webdeveloper/)
 
 - HTML
 - CSS/SASS preprocessor
